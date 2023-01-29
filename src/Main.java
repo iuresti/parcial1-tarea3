@@ -10,7 +10,7 @@ public class Main {
             int parameter2 = Integer.parseInt(args[operationIndex + 2]);
 
             switch (operation) {
-                case "SUMA" ->
+                case "SUMA1" ->
                         System.out.println(parameter1 + " + " + parameter2 + " = " + (parameter1 + parameter2));
                 case "MULTIPLICACION" ->
                         System.out.println(parameter1 + " * " + parameter2 + " = " + (parameter1 * parameter2));
